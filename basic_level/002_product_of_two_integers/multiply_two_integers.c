@@ -9,6 +9,6 @@
 int multiply_two_integers(int a, int b)
 {
   // TODO: Remove this line and implement the addition function correctly
-  fprintf(stderr, "ERROR: Function 'sum_of_two_integers' is not implemented yet!\n");
+  fprintf(stderr, "ERROR: Function 'multiply_two_integers' is not implemented yet!\n");
   abort(); // Immediately terminates the program
 }
