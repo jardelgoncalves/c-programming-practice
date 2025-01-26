@@ -18,12 +18,14 @@ In this exercise, implement a function that takes two integers as arguments and 
       // TODO: The following include is unnecessary and can be removed
       #include <stdlib.h> // This line can be removed as 'abort' is not used anymore
 
-      // Example of a function that simulates a non-implemented function
+      /*
+       * Implement a function that takes two integers as arguments and calculates their sum.
+       */
       int sum_of_two_integers(int a, int b)
       {
-          // TODO: Remove this line and implement the addition function correctly
-          fprintf(stderr, "ERROR: Function 'sum_of_two_integers' is not implemented yet!\n");
-          abort(); // Immediately terminates the program
+        // TODO: Remove this line and implement the addition function correctly
+        fprintf(stderr, "ERROR: Function 'sum_of_two_integers' is not implemented yet!\n");
+        abort(); // Immediately terminates the program
       }
     ```
   - After removing the comments and the unnecessary lines, the file should look like this:
@@ -34,6 +36,9 @@ In this exercise, implement a function that takes two integers as arguments and 
     ```c
       #include <stdio.h>
 
+      /*
+       * Implement a function that takes two integers as arguments and calculates their sum.
+       */
       int sum_of_two_integers(int a, int b)
       {
 
@@ -49,6 +54,9 @@ In this exercise, implement a function that takes two integers as arguments and 
     ```c
     #include <stdio.h>
 
+    /*
+     * Implement a function that takes two integers as arguments and calculates their sum.
+     */
     int sum_of_two_integers(int a, int b)
     {
         return a + b;
