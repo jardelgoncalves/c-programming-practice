@@ -59,7 +59,8 @@
   "files.associations": {
     "sum_two_integer.h": "c",
     "sum_two_integer.H": "cpp",
-    "assert.h": "c"
+    "assert.h": "c",
+    "stdio.h": "c"
   },
   "editor.tabSize": 2,
   "editor.formatOnSave": true,
