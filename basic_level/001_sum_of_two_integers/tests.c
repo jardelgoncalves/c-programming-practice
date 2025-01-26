@@ -18,5 +18,8 @@ void run_tests()
   assert(sum_of_two_integers(10, 5) == 15);
   printf("\033[32mTest 4 Passed: sum_of_two_integers(10, 5) = %d\033[0m\n", 15);
 
+  assert(sum_of_two_integers(5000, 10275) == 15275);
+  printf("\033[32mTest 5 Passed: sum_of_two_integers(5000, 10275) = %d\033[0m\n", 15275);
+
   printf("\n\033[1;32mAll tests passed for 'Sum of two integers'!\033[0m\n");
 }
