@@ -2,7 +2,7 @@
 
 ![Level: Basic](https://img.shields.io/badge/Level-Basic-brightgreen)
 
-In this exercise, you are tasked with implementing a function that receives two double precision floating-point values, `A` and `B`, which represent the grades of a student. The function should then calculate the student's weighted average, where **grade A has a weight of 3.5** and **grade B has a weight of 7.5**. The total weight is therefore 11. Assume that each grade will be between 0 and 10.0, with one decimal place.
+In this exercise, you are tasked with implementing a function that receives two double precision floating-point values, `A` and `B`, which represent the grades of a student. The function should then calculate the student's weighted average, where **grade A has a weight of 3.5** and **grade B has a weight of 7.5**. The total weight is therefore 11. Assume that each grade will be between 0 and 10.0, with one or two decimal place.
 
 Print the message "MEDIA" and the student's average as shown below, with 5 digits after the decimal point and a space before and after the equality sign.
 
