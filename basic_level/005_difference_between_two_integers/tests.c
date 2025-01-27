@@ -4,7 +4,7 @@
 
 void run_tests()
 {
-  printf("\033[1mRunning Test for 'Successor of an Integer'\033[0m\n");
+  printf("\033[1mRunning Test for 'Difference Between Two Integers'\033[0m\n");
 
   assert(difference_between_two_integers(10, 9) == 1);
   printf("\033[32mTest 1 Passed: difference_between_two_integers(10, 9) = %d\033[0m\n", 1);
@@ -24,5 +24,5 @@ void run_tests()
   assert(difference_between_two_integers(-10, 30) == -40);
   printf("\033[32mTest 5 Passed: difference_between_two_integers(-10, 30) = %d\033[0m\n", -40);
 
-  printf("\n\033[1;32mAll tests passed for 'Successor of an integer'!\033[0m\n");
+  printf("\n\033[1;32mAll tests passed for 'Difference Between Two Integers'!\033[0m\n");
 }
