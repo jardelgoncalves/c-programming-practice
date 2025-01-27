@@ -6,7 +6,7 @@
 /*
  * Implement a function that prints "Hello, World!" followed by a newline.
  */
-void hello_world()
+void hello_world(void)
 {
   // TODO: Remove this line and implement the addition function correctly
   fprintf(stderr, "ERROR: Function 'hello_world' is not implemented yet!\n");
