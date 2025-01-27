@@ -12,7 +12,7 @@ In this exercise, you are tasked with implementing a function that calculates th
 You do not need to worry about reading input or handling edge cases; simply implement the logic to calculate the difference and return the value. The result should be returned, not printed.
 
 ## Instructions:
-1. Open the file `basic_level/005_difference_between_two_integers/004_difference_between_two_integers.c` in your preferred code editor.
+1. Open the file `basic_level/005_difference_between_two_integers/difference_between_two_integers.c` in your preferred code editor.
 2. Remove the comments and placeholder code:
   - The code you’ll find in the file is a placeholder, with comments indicating that the function is not yet implemented. You need to remove these comments and the unnecessary lines.
 3. Implement the function:
@@ -29,5 +29,5 @@ You do not need to worry about reading input or handling edge cases; simply impl
     ```bash
     ./main_executable
     ```
-    The program will run the test cases and output whether your implementation of the `004_difference_between_two_integers` function is correct.
+    The program will run the test cases and output whether your implementation of the `difference_between_two_integers` function is correct.
 
