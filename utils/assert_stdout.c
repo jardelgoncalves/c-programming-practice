@@ -17,8 +17,10 @@ void assert_stdout(void (*func)(void), const char *resultExpected)
 
   rewind(archive_temp);
 
-  char buffer[100];
-  fgets(buffer, sizeof(buffer), archive_temp);
+  char buffer[1024];
+  size_t len = fread(buffer, sizeof(char), sizeof(buffer) - 1, archive_temp);
+
+  buffer[len] = '\0';
 
   assert(strcmp(buffer, resultExpected) == 0);
 
